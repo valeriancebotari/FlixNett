@@ -26,7 +26,12 @@
 <body>
     <header class="showcase">
     	<div class="showcase-top">
-    		<a href="index.html" class="logo"><img src="images/logo.png" alt="TV Channel Logo"></a>
+    		<a href="index.html" class="logo">
+				<picture class="SliderImage">
+					<source type="image/webp" srcset="images/logo.webp" media="(min-width: 300px)" />
+					<img src="images/logo.png" alt="Logo TV Channel" itemprop="image" />	
+				</picture>				
+			</a>
     		<a href="#" class="btn btn-rounded trigger-btn" data-toggle="modal" data-target="#myModal">Sign In</a>
 
                 <div id="myModal" class="modal fade">
